@@ -2,13 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite1">
-    <test name="QueueTest">
+    <test name="StudyTest" thread-count="4">
         <classes>
-            <class name="com.adminsue.study.design.factory.QueueTest">
-                <methods>
-                    <include name="doQueue"/>
-                </methods>
-            </class>
+            <class name="com.adminsue.study.design.factory.QueueTest"/>
+            <class name="com.adminsue.study.design.singleton.SingletonTest"/>
         </classes>
     </test>
 </suite>
