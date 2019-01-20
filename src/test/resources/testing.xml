@@ -6,6 +6,7 @@
         <classes>
             <class name="com.adminsue.study.design.factory.QueueOrderTest"/>
             <class name="com.adminsue.study.design.singleton.SingletonTest"/>
+            <class name="com.adminsue.study.structure.queue.QueueCompareTest"/>
         </classes>
     </test>
 </suite>
