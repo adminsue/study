@@ -4,7 +4,7 @@
 <suite name="Suite1">
     <test name="StudyTest" thread-count="4">
         <classes>
-            <class name="com.adminsue.study.design.factory.QueueTest"/>
+            <class name="com.adminsue.study.design.factory.QueueOrderTest"/>
             <class name="com.adminsue.study.design.singleton.SingletonTest"/>
         </classes>
     </test>
