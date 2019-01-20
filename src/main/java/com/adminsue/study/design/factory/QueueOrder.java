@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * @since 2019-01-19.
  */
 @Component
-public class Queue {
+public class QueueOrder {
 
     public void doQueue(Provider provider) {
 

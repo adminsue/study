@@ -31,7 +31,7 @@ public class SingletonTest extends BaseTest {
         };
     }
 
-    @Test(dataProvider = "paramProvider", threadPoolSize = 4, invocationCount = 3, invocationTimeOut = 3 * 60 * 1000L)
+    @Test(dataProvider = "paramProvider")
     public void doQueue(Supplier<Object> supplier) throws Exception {
         List<Integer> loops = new ArrayList<>();
         for (int i = 0; i < 10000; i++) {

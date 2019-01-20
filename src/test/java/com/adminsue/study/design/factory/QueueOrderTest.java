@@ -12,10 +12,10 @@ import org.testng.annotations.Test;
  * @author adminsue[ceo@adminsue.com]
  * @since 2019-01-19.
  */
-public class QueueTest extends BaseTest {
+public class QueueOrderTest extends BaseTest {
 
     @Autowired
-    private Queue queue;
+    private QueueOrder queueOrder;
 
     @DataProvider
     public Object[][] paramProvider() {
@@ -27,7 +27,7 @@ public class QueueTest extends BaseTest {
 
     @Test(dataProvider = "paramProvider")
     public void doQueue(Provider provider) {
-        queue.doQueue(provider);
+        queueOrder.doQueue(provider);
     }
 
 }
