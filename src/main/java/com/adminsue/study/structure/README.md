@@ -2,3 +2,4 @@
 
 * queue -> 队列
 * set -> 集合Set
+* list -> 集合list
