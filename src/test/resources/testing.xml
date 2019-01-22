@@ -7,6 +7,8 @@
             <class name="com.adminsue.study.design.factory.QueueOrderTest"/>
             <class name="com.adminsue.study.design.singleton.SingletonTest"/>
             <class name="com.adminsue.study.structure.queue.QueueCompareTest"/>
+            <class name="com.adminsue.study.structure.stack.ArrayStackTest"/>
+            <class name="com.adminsue.study.structure.stack.LinkedStackTest"/>
         </classes>
     </test>
 </suite>
